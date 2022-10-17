@@ -1,32 +1,30 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Learing Center
 
-> Description the project.
-
+> This project is what i was able to learn in Module 1 of Microverse Program. This is the Capstone Project
 
 ## Built With
 
-- Major languages
-- Frameworks
+- HTML & CSS
+- Javascript
 - Technologies used
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Clone this Project into your Computer
 
-### Setup
+You can use the provided link to clone it:
+https://github.com/ernestkorir/Capstone-1.git
 
 ### Install
 
@@ -36,21 +34,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-
-
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ernestkorir](https://github.com/ernestkorir)
+- Twitter: [@ernstbore3](https://twitter.com/Ernestbore3)
+- LinkedIn: [Ernest-Bore](https://www.linkedin.com/in/ernest-bore-3b6042211/)
 
 ## 🤝 Contributing
 
@@ -71,5 +61,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

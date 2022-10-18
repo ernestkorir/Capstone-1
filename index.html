@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="./desktop_screenshot.png">
+  <title>Golden View School</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f8b4998ade.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="pre-nav">
+    <a href=""> <i class="fab fa-twitter"></i></a>
+    <a href=""><i class="fab fa-instagram"></i></a>
+    <ul class="pre-menu">
+      <li><a href="#">English</a></li>
+      <li><a href="#">My Page</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </div>
+  <nav id="nav" class="invisible">
+    <div id="cross" class="cross-container" onclick="toggleMenu()">
+      <i class="fas fa-times"></i>
+    </div>
+    <a href="./index.html" class="nav-logo-frame">
+      <img src="/assets/Golden-view.jpg" alt="" class="nav-logo">
+    </a>
+    <ul class="menu">
+      <li><a href="./about.html">About</a></li>
+      <li><a href="#" onclick="toggleMenu()">Program</a></li>
+      <li><a href="#" onclick="toggleMenu()">Join</a></li>
+      <li><a href="#" onclick="toggleMenu()">Sponsor</a></li>
+      <li><a href="#" onclick="toggleMenu()">News</a></li>
+    </ul>
+    <button type="button" class="nav-btn">Join Now!</button>
+    <div class="deco-ball-1"></div>
+    <img src="./assets/11-chess-board-gray.png" alt="" class="curtain-deco">
+  </nav>
+  <div class="img-frame">
+    <div id="burger-container" class="burger-container">
+      <i class="fas fa-bars"></i>
+    </div>
+    <img src="/assets/nairobi.jpg" alt="View of Nairobi City" class="back-img">
+    <div class="img-curtain">
+      <img src="./assets/11-chess-board-gray-resized.png" alt="" class="curtain-deco">
+      <img src="./assets/hitmark-gray.png" alt="" class="curtain-hitmark">
+    </div>
+  </div>
+  <header>
+    <h1>Hey There</h1>
+    <h2>Golden View <br>SChool<br>Welcomes you</h2>
+    <div class="deco-ball-1"></div>
+    <div class="txt-container">
+      <p>
+        This is Golden SChool Website. We are located in the Capital City Nairobi,Kenya.
+        We offer the best courses in different fields and we are ranked one of the best school in Nairobi.We offer our course both online and physical depending on what you will chose from. We offer many courses from Web-Program design,Database,server Courses, Linux Courses.You will Learn Programming lanaguage like HTML, CSS, Javascript, Rust, Ruby,ReactJS, Python and many more.
+      </p>
+    </div>
+    <div class="tag-container">
+      <h3>2022.10.17(Monday) ~ 22(SAT)</h3>
+      <p>
+        @ Highway Towers Building , Nakuru Kenya
+      </p>
+      <img src="./assets/hitmark-gray.png" alt="" class="tag-hitmark">
+      <i class="fas fa-globe-americas"></i>
+    </div>
+  </header>
+  <main>
+    <h2>Main Program</h2>
+    <hr class="h-underline">
+    <div class="program-container">
+      <div class="main-card">
+        <i class="fa fa-desktop m-card-icon"></i>
+        <h3 class="m-card-title">Online Program</h3>
+        <p class="m-card-text">
+         We have online program that is full-time and study at the comfort of your home or in the office.You dont have to be physically in class
+        </p>
+      </div>
+      <div class="main-card">
+        <i class="fas fa-comments m-card-icon"></i>
+        <h3 class="m-card-title">Discussion</h3>
+        <p class="m-card-text">
+          We have a discussion forums where you can raise a  number of issuues to be discussed by the other students and even the lecturers
+        </p>
+      </div>
+      <div class="main-card">
+        <i class="fas fa-chalkboard-teacher m-card-icon"></i>
+        <h3 class="m-card-title">Lectures</h3>
+        <p class="m-card-text">
+          We provide quality of lecturers to guide our students in a quality standards
+        </p>
+      </div>
+      <div class="main-card">
+        <i class="fa fa-map-signs m-card-icon"></i>
+        <h3 class="m-card-title">StandUps</h3>
+        <p class="m-card-text">
+          In this program you will have sometime standup meetings with your career coach and talk a number of issues and seek advise
+        </p>
+      </div>
+      <div class="main-card">
+        <i class="fa fa-users m-card-icon"></i>
+        <h3 class="m-card-title">Collaboration</h3>
+        <p class="m-card-text">
+          In the program we enable and facilitate for our students to have a Collaboration session with their group members and do some studies together
+        </p>
+      </div>
+    </div>
+    <button type="button" class="main-btn">Join Golden View School</button>
+    <a href="#" class="main-a">SEE THE WHOLE PROGRAM</a>
+  </main>
+  <section id="speakers">
+    <h2>Featured speakers</h2>
+    <hr class="h-underline">
+    <div id="speaker-container" class="speaker-container"></div>
+    <button type="button" class="speaker-btn"><span id="morles">MORE </span><i id="chevron" class="fas fa-chevron-down"></i></button>
+  </section>
+  <section id="partner">
+    <h2>Partner</h2>
+    <hr class="h-underline">
+    <ul class="partner-list">
+      <li><a href="#"><img src="./assets/microverse.jpg" alt="" class="partner-logo"></a></li>
+      <li><a href="#"><img src="./assets/google.png" alt="" class="partner-logo"></a></li>
+      <li><a href="#"><img src="./assets/github.png" alt="" class="partner-logo"></a></li>
+      <li><a href="#"><img src="./assets/Golden-view.jpg" alt="" class="partner-logo"></a></li>
+      <li><a href="#"><img src="./assets/microsoft.png" alt="" class="partner-logo"></a></li>
+    </ul>
+  </section>
+  <footer>
+    <img src="./assets/Golden-view.jpg" alt="Image coming soon" class="footer-logo">
+    <p>
+     2022 | Golden View School.  Some Rights Reserved.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -15,7 +15,8 @@
 [Live Demo](https://ernestkorir.github.io/Capstone-1/)
 
 ## Loom Video
-[Loom Video]()
+
+[Loom Video](https://www.loom.com/share/7225df2afc564e04aaebc5995effe2ed)
 
 ## Getting Started
 

@@ -16,7 +16,7 @@
 
 ## Loom Video
 
-[Loom Video](https://www.loom.com/share/7225df2afc564e04aaebc5995effe2ed)
+[Loom Video](https://www.loom.com/share/3af9d38ca9cc41fb9fad83e653f02738)
 
 ## Getting Started
 

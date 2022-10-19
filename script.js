@@ -33,9 +33,9 @@ const speakers = [
   },
   {
     imagesURL: ['./assets/11-chess-board-removebg-preview.png', './assets/11-chess-board-gray.png', './assets/persons1.jpg'],
-    name: 'Andrés Couttenye',
-    occupation: 'German Teacher at Obelisk Language Center',
-    info: 'Andrés will be speaking about the rising demand of professionals that it\'s taking place in Germany recently. How learning German could help you land a job will be discussed in this forum',
+    name: 'James Omollo',
+    occupation: 'Department of Software engineering',
+    info: 'James is incharge of the Software Engineering school. He approves the courses offered and also learning material to check if they meet the standard required in the field',
   },
   {
     imagesURL: ['./assets/11-chess-board-removebg-preview.png', './assets/11-chess-board-gray.png', './assets/person-6.jpg'],

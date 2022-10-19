@@ -3,7 +3,7 @@ function toggleMenu() {
   document.querySelector('#nav').classList.toggle('invisible');
 }
 
-document.getElementById('burger-container').onclick = function () { toggleMenu(); };
+document.getElementById('burger-container').onclick = () => { toggleMenu(); };
 
 const speakers = [
   {
@@ -113,6 +113,6 @@ function toggleSpeakers() {
 
 const btn = document.querySelector('.speaker-btn');
 window.addEventListener('resize', widthTeller);
-btn.onclick = function () { toggleSpeakers(); };
+btn.onclick = () => { toggleSpeakers(); };
 
 widthTeller();
